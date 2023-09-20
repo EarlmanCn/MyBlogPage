@@ -1,0 +1,1 @@
+var posts=["2023/09/19/1111/","2023/09/19/微信公众号使用Markdown语法发布文章/","2023/09/19/Docker部署基于WordPress的个人博客网站/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
